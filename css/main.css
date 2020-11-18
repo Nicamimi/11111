@@ -1,0 +1,72 @@
+/*Панель навигации*/
+.navbar{
+    background: rebeccapurple;
+}
+
+.nav-link,
+.navbar-brand{
+    color:seashell;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 10px !important;
+}
+
+.nav-link:hover{
+    background: rgb(59, 0, 153);
+    color: plum;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+
+/*Панель навигации*/
+
+/*Стиль хедера*/
+
+.header{
+    background-image: url('../images/img.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Блюр */
+.overlay{
+     min-height: 100%;
+     min-width: 100%;
+     left: 0;
+     top: 0;
+     background: rgba(212,207,207, 0.5);
+}
+
+/*Описание сайта*/
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 10px;
+}
+
+.description h1{
+    color: rgb(95, 6, 95);
+}
+
+.description p{
+    color: darkmagenta;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button{
+    border: 2px solid rgb(48, 2, 107);
+    background: violet;
+    color: whitesmoke;
+}
+
+
